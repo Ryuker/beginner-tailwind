@@ -45,3 +45,6 @@
 # 03. Tailwind Basics
 - created tailwind-basics index.html file
 - specified in comments which sections we'll be building to explore the core concepts
+
+## Spacing: White Space
+- to specify margin: `m-0` | to specify direction of margin: `mt-3` | [docs](https://tailwindcss.com/docs/margin)
