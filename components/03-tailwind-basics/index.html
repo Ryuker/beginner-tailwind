@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>Tailwind Basics: Main Concepts</title>
-  <style>
-    * {
-      border: 1px solid red;
-    }
-  </style>
 </head>
 <body>
   <!-- spacing -->
-  <h2 class="my-3">Spacing Section</h2>
-  <p>Tailwind helps us space things out with margin and padding.</p>
-  
+  <div class="p-20">
+    <h2 class="mb-4">Spacing Section</h2>
+    <p class="mb-4">Tailwind helps us space things out with margin and padding.</p>
+
+    <button class="mr-3 py-2 px-4">Learn More</button>
+    <button class="py-2 px-8">Sign Up</button>
+  </div>
+
 
   <!-- box properties -->
 
@@ -31,5 +31,6 @@
 
   <!-- animations -->
 
+  <link  rel="stylesheet" href="style.css"/>
 </body>
 </html>

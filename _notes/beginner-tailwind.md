@@ -48,3 +48,16 @@
 
 ## Spacing: White Space
 - to specify margin: `m-0` | to specify direction of margin: `mt-3` | [docs](https://tailwindcss.com/docs/margin)
+- rule of thumb with buttons is to double the value of the y axis on the x axis
+  eg: `py-2 px-4`
+example:
+``` HTML
+<!-- spacing -->
+<div class="p-20">
+  <h2 class="mb-4">Spacing Section</h2>
+  <p class="mb-4">Tailwind helps us space things out with margin and padding.</p>
+
+  <button class="mr-3 py-2 px-4">Learn More</button>
+  <button class="py-2 px-8">Sign Up</button>
+</div>
+```
