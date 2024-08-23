@@ -43,5 +43,5 @@
 ```
 
 # 03. Tailwind Basics
-
-## Spacing
+- created tailwind-basics index.html file
+- specified in comments which sections we'll be building to explore the core concepts
