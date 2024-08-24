@@ -1,6 +1,13 @@
 # Beginner Tailwind Notes
 - [video](https://youtu.be/wEM5NdJ-8HY?si=mt9VgE7809WIiEjJ)
 
+emmet shorthands:
+- `div.flex` to add div + class
+- `div*5` to repeat the same div
+- `div+div` to add 2 divs under each other
+- `div{Click Me}` to add contents inside the div directly
+- `div#name` to add div with an id of name
+
 # 01. Setup
 - added Tailwind Template HTML using a cdn import
 ``` HTML 01-tailwind-template
@@ -62,4 +69,27 @@ example:
 </div>
 ```
 
-left vid at 55:01
+## Box Properties
+
+### Background properties
+- exploring bg-color property | [bg-color](https://tailwindcss.com/docs/background-color)
+  - Tailwind has good looking colors out of the box 
+  - the coloring scheme uses numbers | `bg-slate-100 for example.
+    - on the docs you can see the changes in the color per value
+  - the coloring schema also works for borders etc.
+
+### Border properties
+- explored border radius | `rounded-full` | [rounded-full](https://tailwindcss.com/docs/border-radius)
+- colors work the same as `bg` | `border-red-800` | [border-red-8000](https://tailwindcss.com/docs/border-color)
+- for border sizes an increment of 2 is used | `border-2` [border-2](https://tailwindcss.com/docs/border-width)
+
+### Shadow properties
+- explored box-shadow | `shadow-lg` | [shadow-lg](https://tailwindcss.com/docs/box-shadow)
+
+### Sizing and Numbering
+- explored spacing | [spacing customization](https://tailwindcss.com/docs/customizing-spacing)
+  - good way to keep in mind what spacing your going to get is to multiple the number by 4. 
+    - the result is rougly the pixel spacing you'll get 
+
+### Typography
+- styling cascades down to the child components
