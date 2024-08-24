@@ -93,5 +93,17 @@ example:
 
 ### Typography
 - styling cascades down to the child components
-- `tracking-wide` modified the letter spacing
-- 
+- `tracking-wide` modifies the letter spacing | [tracking-wide](https://tailwindcss.com/docs/letter-spacing)
+
+### Colors
+- explored default color palette | [default-color-palette](https://tailwindcss.com/docs/customizing-colors#default-color-palette)
+
+- the default colors are pretty good
+  - we can change the base color and then tailwind generates the 9 shades
+
+- couple of best practise |` bg-red-100 text-red-900 `
+  - take color contrast into account (if there's not clear design)
+  - if you're at 100 might want to use a large number like 800 for the text.
+  - best to play around
+
+left vid at: 01:24:47
