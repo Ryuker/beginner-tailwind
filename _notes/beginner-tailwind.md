@@ -93,3 +93,5 @@ example:
 
 ### Typography
 - styling cascades down to the child components
+- `tracking-wide` modified the letter spacing
+- 
