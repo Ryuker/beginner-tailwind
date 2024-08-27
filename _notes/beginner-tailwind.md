@@ -125,7 +125,7 @@ example:
   [translate](https://tailwindcss.com/docs/translate)
 - using rotate | `hover:rotate-45` |
   [rotate](https://tailwindcss.com/docs/rotate)
-
+ 
 
 
 left vid at: 01:24:47
