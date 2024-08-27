@@ -127,5 +127,8 @@ example:
   [rotate](https://tailwindcss.com/docs/rotate)
  
 
+## Animations
+- `animate-bounce` | `animate-ping` | `animate-pulse` | `animate-ping`
+  - these can all be used to add some simple animations to the element
 
 left vid at: 01:24:47
