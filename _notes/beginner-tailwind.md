@@ -111,6 +111,10 @@ example:
   - this is utility class of tailwind, this way margin doesn't have to be specified on the child elements. 
 
  ## pseudo classes
- -  
+ [pseudo-classes](https://tailwindcss.com/docs/hover-focus-and-other-states#pseudo-elements)
+ - to use a pseudo classes you can just use `hover:bg-blue` for example
+   | so you specify the pseudeclass and then use the utility class 
+
+
 
 left vid at: 01:24:47
