@@ -131,4 +131,7 @@ example:
 - `animate-bounce` | `animate-ping` | `animate-pulse` | `animate-ping`
   - these can all be used to add some simple animations to the element
 
+
+# 04. Background Gradients
+- 
 left vid at: 01:24:47
