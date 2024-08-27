@@ -115,6 +115,14 @@ example:
  - to use a pseudo classes you can just use `hover:bg-blue` for example
    | so you specify the pseudeclass and then use the utility class 
 
+## Transitions
+- transition: `transition duration-300` | [transition](https://tailwindcss.com/docs/transition-property)
+  - transition timing function `ease-in` | [transition timing](https://tailwindcss.com/docs/transition-timing-function)
+  - basic easing classes
+
+## Transforms
+- 
+
 
 
 left vid at: 01:24:47
