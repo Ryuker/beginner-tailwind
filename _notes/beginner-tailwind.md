@@ -106,4 +106,11 @@ example:
   - if you're at 100 might want to use a large number like 800 for the text.
   - best to play around
 
+ ## utility classes
+ - we can use `space-y-3` on the parent div to space out the children.
+  - this is utility class of tailwind, this way margin doesn't have to be specified on the child elements. 
+
+ ## pseudo classes
+ -  
+
 left vid at: 01:24:47
