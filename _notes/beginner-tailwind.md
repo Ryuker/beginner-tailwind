@@ -133,5 +133,14 @@ example:
 
 
 # 04. Background Gradients
-- 
+- For grandients we need to:
+  1. set a class for the gradient
+  `bg-gradient-to-br`
+  2. set a starting color
+  `from-blue-100`
+  3. set a end color
+  `to-purple-200`
+  4. set a middle color (optional)
+  `via-red-400`
+
 left vid at: 01:24:47
