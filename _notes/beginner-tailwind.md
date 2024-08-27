@@ -121,7 +121,10 @@ example:
   - basic easing classes
 
 ## Transforms
-- 
+- using translate to move the element | `hover:translate-x-4` | 
+  [translate](https://tailwindcss.com/docs/translate)
+- using rotate | `hover:rotate-45` |
+  [rotate](https://tailwindcss.com/docs/rotate)
 
 
 
