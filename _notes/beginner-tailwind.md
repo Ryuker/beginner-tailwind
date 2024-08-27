@@ -143,4 +143,7 @@ example:
   4. set a middle color (optional)
   `via-red-400`
 
+- text gradient
+`bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-purple-800`
+
 left vid at: 01:24:47
