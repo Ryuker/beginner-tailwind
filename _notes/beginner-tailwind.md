@@ -205,6 +205,16 @@ example usage:
 ## Flex center aligning
 - `flex justify-center items-center` 
 
+## navigation example
+- `flex justify-between`
+``` HTML
+<!-- navigation -->
+<div class="bg-gray-300 p-10 flex justify-between">
+  <div>logo</div>
+  <div>navigation</div>
+</div>
+```
+
 
 
 left vid at: 01:53:28
