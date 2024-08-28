@@ -215,6 +215,17 @@ example usage:
 </div>
 ```
 
+## Columns section
+``` HTML
+<!-- creating a columns section -->
+<div class="bg-yellow-500 p-10 md:flex md:space-x-8 space-y-4 md:space-y-0">
+  <div class="flex-grow bg-white p-2">hello</div>
+  <div class="flex-grow bg-white p-2">hello</div>
+  <div class="flex-grow bg-white p-2">hello</div>
+</div>
+   
+```
+
 
 
 left vid at: 01:53:28
