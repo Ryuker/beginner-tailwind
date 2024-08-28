@@ -187,6 +187,22 @@ example usage:
 ``` HTML
 <h2 class="text-6xl text-black md:text-red-600 lg:text-yellow-600 xl:text-white">Mobile First</h2>
 ```
+## Stacking and Side by Side
+- example:
+``` HTML
+<!-- stacking vs side by side -->
+<div class="md:flex md:space-x-8">
+  <div class="md:w-1/2 p-10 bg-white mt-10">on mobile we stack</div>
+  <div class="md:w-1/2 p-10 bg-white mt-10">on desktop, we are side by side</div>
+</div>
+```
+
+# 07. Flex box
+- [Display](https://tailwindcss.com/docs/display)
+- cool game to learn flexbox | [flexboxfroggy](https://flexboxfroggy.com/) 
+- another cool game is for grid [grid garden](https://codepip.com/games/grid-garden/)
+
+
 
 
 
