@@ -174,6 +174,11 @@ example:
   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, ab corporis corrupti cumque natus laborum mollitia ex doloribus porro. Consectetur expedita minima porro ea quod iusto saepe ratione modi laudantium.</p>
 </div>
 ```
+- some more tweaks to make absolute positioning look good
+  - positions it slight off the parent element with padding and colors
+``` HTML
+<div class="absolute top-0 right-0 bg-red-500 rounded xs py-1 px-4 transform translate-x-2 -translate-y-2 text-red-100">Brand New</div>
+```
 
 
 left vid at: 01:53:28
