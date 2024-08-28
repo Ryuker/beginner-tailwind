@@ -146,4 +146,34 @@ example:
 - text gradient
 `bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-purple-800`
 
+# 05. Layout and Positioning
+## Container
+- container class | [container](https://tailwindcss.com/docs/container)
+- center positioning using margin auto `container mx-auto`
+example usage:
+``` HTML
+<div class="py-20 min-h-screen bg-gray-200">
+  <div class="container mx-auto border border-red-400">
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, ab corporis corrupti cumque natus laborum mollitia ex doloribus porro. Consectetur expedita minima porro ea quod iusto saepe ratione modi laudantium.</p>
+    </div>
+  </div>
+</div>
+```
+
+## Position
+- absolute positioning:
+  - an absolute positioned item with position it self to the first relative parent.
+  - if there's no relative parent element then it positions itself to the body
+example:
+``` HTML
+<div class="relative bg-white p-10 rounded-lg shadow-lg">
+  <!-- Absolutely positioned label -->
+  <div class="absolute top-0 right-0">Brand New</div>
+
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, ab corporis corrupti cumque natus laborum mollitia ex doloribus porro. Consectetur expedita minima porro ea quod iusto saepe ratione modi laudantium.</p>
+</div>
+```
+
+
 left vid at: 01:53:28
