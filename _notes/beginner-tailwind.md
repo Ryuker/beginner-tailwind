@@ -180,5 +180,14 @@ example:
 <div class="absolute top-0 right-0 bg-red-500 rounded xs py-1 px-4 transform translate-x-2 -translate-y-2 text-red-100">Brand New</div>
 ```
 
+# 06. Responsive design
+- Tailwind's responsive classes are mobile first
+- to use: `md:w-32` or `lg:bg-red-200` for example
+example usage:
+``` HTML
+<h2 class="text-6xl text-black md:text-red-600 lg:text-yellow-600 xl:text-white">Mobile First</h2>
+```
+
+
 
 left vid at: 01:53:28
