@@ -229,6 +229,18 @@ example usage:
    
 ```
 
+## Sidebar example
+- hides on mobile, shows at medium sized and up
+``` HTML
+<!-- sidebar -->
+<div class="bg-teal-700 h-64">
+  <div class="md:flex h-full items-stretch">
+    <div class="hidden md:block md:w-1/5 bg-orange-500 p-10">sidebar</div>
+    <div class="md:flex-grow bg-teal-500 p-10">content</div>
+  </div>
+</div>
+```
+
 
 
 left vid at: 01:53:28
