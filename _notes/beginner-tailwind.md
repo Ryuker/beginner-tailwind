@@ -216,6 +216,9 @@ example usage:
 ```
 
 ## Columns section
+- we can use flex-grow on the children to grow them to fill up to the size of the parent div if there's space
+- we can use use space-y and space-x to add some margin to all of them.
+
 ``` HTML
 <!-- creating a columns section -->
 <div class="bg-yellow-500 p-10 md:flex md:space-x-8 space-y-4 md:space-y-0">
