@@ -202,7 +202,8 @@ example usage:
 - cool game to learn flexbox | [flexboxfroggy](https://flexboxfroggy.com/) 
 - another cool game is for grid [grid garden](https://codepip.com/games/grid-garden/)
 
-
+## Flex center aligning
+- `flex justify-center items-center` 
 
 
 
