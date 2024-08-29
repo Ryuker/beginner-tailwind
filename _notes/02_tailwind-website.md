@@ -71,3 +71,16 @@
   </div>
 </div>
 ```
+**Tutorial Version**:
+``` HTML
+<div class="p-20 bg-orange-50">
+  <h3 class="mb-4 text-orange-600 font-bold text-sm">3. Horizontal Card</h3>
+  <div class="bg-white rounded-lg shadow-2xl md:flex">
+    <img src="https://images.unsplash.com/photo-1563985336376-568060942b80?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="coast" class="md:w-1/3 rounded-t-lg md:rounded-tr-none md:rounded-l-lg">
+    <div class="p-6 flex flex-col justify-center">
+      <h2 class="font-bold text-xl md:text-3xl mb-2 text-orange-700">Horizontal Card</h2>
+      <p class="mb-2 text-orange-700">Look at me go sideways!</p>
+    </div>
+  </div>
+</div>
+```
