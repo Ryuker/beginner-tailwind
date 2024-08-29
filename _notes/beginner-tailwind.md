@@ -242,7 +242,41 @@ example usage:
 ```
 
 # 08. Grid
+[grid template-rows](https://tailwindcss.com/docs/grid-template-rows)
 
+## Cols and Gap
+``` HTML
+ <div class="p-20 bg-green-200 text-green-800 grid grid-cols-3 gap-2">
+   <div class="bg-green-100 rounded p-5">card 1</div>
+   <div class="bg-green-100 rounded p-5">card 2</div>
+   <div class="bg-green-100 rounded p-5">card 3</div>
+   <div class="bg-green-100 rounded p-5">card 4</div>
+   <div class="bg-green-100 rounded p-5">card 5</div>
+   <div class="bg-green-100 rounded p-5">card 6</div> 
+  </div>
+```
+
+## Row Span and Col Span
+``` HTML
+<div class="p-20 bg-teal-200 text-green-800 grid grid-cols-3 grid-rows-3 gap-3 ">
+  <div class="bg-teal-100 rounded p-5">card 1</div>
+  <div class="row-span-2 bg-teal-100 rounded p-5">card 2</div>
+  <div class="bg-teal-100 rounded p-5">card 3</div>
+  <div class="row-span-2 bg-teal-100 rounded p-5">card 4</div>
+  <div class="row-span-2 bg-teal-100 rounded p-5">card 5</div>
+  <div class="bg-teal-100 rounded p-5">card 6</div>
+</div>
+```
+
+## Example combining grid and flex
+``` HTML
+<div class="p-20 bg-orange-200 text-green-800 grid grid-cols-4 grid-rows-3 gap-3">
+    <div class="row-span-3 bg-orange-100 rounded p-5">image</div>
+    <div class="col-span-2 row-span-2 bg-orange-100 rounded p-5 flex items-center justify-center">content</div>
+    <div class="bg-orange-100 rounded p-5">something</div>
+    <div class="row-start-3 col-start-2 col-span-3 bg-orange-100 rounded p-5">footer</div>
+  </div>
+```
 
 
 left vid at: 02:23:08
