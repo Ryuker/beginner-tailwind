@@ -41,6 +41,20 @@
   </div>
 </div>
 ``` 
+**Tutorial Version**:
+``` HTML
+<div class="p-20 bg-purple-50">
+  <div class="mb-4 text-sky-400 font-bold text-sm">2. Card w/ image</div>
+  <div class="w-full md:w-1/2 bg-white rounded-lg shadow-lg">
+    <img src="https://images.unsplash.com/photo-1515581247767-d78687bf2254?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="desert" class="rounded-t-lg"/>
+    <div class="p-6">
+      <h2 class="font-bold mb-2 text-2xl text-purple-800">Card with Image</h2>
+      <p class="mb-2 text-purple-700 mb-2">This is a little better of a card!</p>
+      <a href="#" class="text-purple-600 underline hover:text-purple-500 font-bold text-sm">Read More 👉</a>
+    </div>
+  </div>
+</div>
+```
 
 ## Horizontal Card
 - Added Horizontal Card
