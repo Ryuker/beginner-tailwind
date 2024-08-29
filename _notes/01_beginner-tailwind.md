@@ -277,6 +277,3 @@ example usage:
     <div class="row-start-3 col-start-2 col-span-3 bg-orange-100 rounded p-5">footer</div>
   </div>
 ```
-
-
-left vid at: 02:23:08
