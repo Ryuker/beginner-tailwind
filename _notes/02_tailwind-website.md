@@ -1,7 +1,6 @@
 # Tailwind Website Components Notes
 
 # 01. Card
-
 ## Card w/no Image
 - added card with no image
   - wrote it without following the tutorial first
@@ -11,6 +10,16 @@
   <div class="p-5 bg-white shadow-lg space-y-2">
     <h1 class="font-bold text-xl">Card with No Image</h1>
     <p>This is my cool new card</p>
+  </div>
+</div>
+```
+**tutorial version**:
+``` HTML
+<div class="p-20 bg-blue-50">
+  <h3 class="mb-4 text-sky-400 font-bold text-sm">1. Card w/ no image</h3>
+  <div class="bg-white p-6 rounded-lg shadow-lg space-y-2">
+    <h2 class="font-bold text-2xl text-gray-800">Card with No Image</h2>
+    <p class="text-gray-700">This is my cool new card!</p>
   </div>
 </div>
 ```
