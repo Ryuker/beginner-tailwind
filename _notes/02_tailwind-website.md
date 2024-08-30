@@ -87,5 +87,9 @@
 
 
 # 02. Buttons
+- added my own version of the buttons
+  - didn't quite get the design to match
+- added tutorial version on the buttons
 
-left vid at: 03:09:11
+# 03. Forms
+left vid at: 03:40:59
