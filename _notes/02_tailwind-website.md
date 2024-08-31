@@ -142,6 +142,32 @@
   </div>
 ```
 
+## Pure Color Form
+- Following along with Pure Color Form setup
+``` HTML
+<div class="bg-purple-500 py-32 px-10 min-h-screen text-xl">
+  <div>
+    <form action="" class="md:w-1/2 mx-auto">
+
+      <div class="shadow-xl">
+        <div class="flex items-center bg-purple-400 rounded-t-lg border-b border-purple-500">
+          <label for="name" class="w-20 text-right mr-8 text-purple-200">Name</label>
+          <input type="text" name="name" id="name" placeholder="John Doe" class="flex-1 p-4 pl-0 bg-transparent placeholder-purple-300  outline-none text-white">
+        </div>
+
+        <div class="flex items center bg-purple-400 rounded-b-lg mb-10">
+          <label for="twitter" class="w-20 text-right mr-8 text-purple-200">Twitter</label>
+          <input type="text" name="twitter" id="twitter" placeholder="@johndoe" class="flex-1 p-4 pl-0 bg-transparent placeholder-purple-300 outline-none text-white">
+        </div>
+      </div>
+
+      <button class="block w-full rounded bg-pink-400 hover:bg-pink-500 py-3 text-white font-bold shadow">Submit</button>
+    </form>
+  </div>
+
+</div>
+```
+
 
 
 left vid at: 03:40:59
