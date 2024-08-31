@@ -170,4 +170,4 @@
 
 
 
-left vid at: 03:40:59
+left vid at: 04:18:34
