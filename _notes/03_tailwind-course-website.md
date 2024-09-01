@@ -11,7 +11,16 @@ npm create vite@latest 03_beginner-tailwind-site --template vanilla
 ## Setup Tailwind 
 ``` shell 03_beginner-tailwind-site
 npm install -D tailwindcss
+
 ```
+## Setup Tailwind config file with post processing
+``` shell 03_beginner-tailwind-site
+npx tailwindcss init -p
+```
+- the `-p` creates a Tailwind config file and a postcss file
+
+
+
 
 
 ## Extensions
