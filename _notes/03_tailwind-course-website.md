@@ -19,8 +19,11 @@ npx tailwindcss init -p
 ```
 - the `-p` creates a Tailwind config file and a postcss file
 
+## Importing tailwind into the website
+- added import to `main.js`
+- made sure main.js is loaded into the `index.html`
+``` js main.js
+import 'tailwindcss/tailwind.css';
+```
 
-
-
-
-## Extensions
+# 02. Styling the body
