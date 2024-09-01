@@ -18,6 +18,11 @@ npm install -D tailwindcss
 npx tailwindcss init -p
 ```
 - the `-p` creates a Tailwind config file and a postcss file
+- settings:
+``` js tailwind.config.js
+content: ["./*.{html,js}"],
+```
+  - this is important else it won't touch the main.js file in time and the utility classes won't be available.
 
 ## Importing tailwind into the website
 - added import to `main.js`
@@ -26,4 +31,14 @@ npx tailwindcss init -p
 import 'tailwindcss/tailwind.css';
 ```
 
+
+
 # 02. Styling the body
+- added very basic body styling to test if Tailwind classes are available.
+```html index.html
+<body class="bg-blue-400 min-h-screen">
+  <h2 class="bg-red-500 text-9xl">yo there</h2>
+</body>
+```
+
+left vid at: 04:29:20
