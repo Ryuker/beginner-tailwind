@@ -41,4 +41,14 @@ import 'tailwindcss/tailwind.css';
 </body>
 ```
 
+# 03. Purging unused CSS classes
+- by default tailwind compiles with all the css classes
+- to purge them out we add a purge instruction to `tailwind.config`
+
+``` JS tailwind.config.js
+purge: [
+  './*.html',
+],
+```
+
 left vid at: 04:29:20
