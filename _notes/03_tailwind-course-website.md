@@ -51,4 +51,20 @@ purge: [
 ],
 ```
 
+# 04. Custom color palette configuration
+- added colors import to tailwind.config
+```js tailwind.config.js
+const colors = require('tailwindcss/colors');
+```
+- to add it we  add 
+``` JS tailwind.config.js
+theme: {
+    extend: {
+      colors: {
+        teal: colors.teal
+      }
+    },
+  },
+```
+
 left vid at: 04:29:20

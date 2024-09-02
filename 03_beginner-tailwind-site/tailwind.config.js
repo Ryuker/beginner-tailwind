@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./*.{html,js}"],
@@ -5,7 +7,11 @@ export default {
     './*.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        teal: colors.teal
+      }
+    },
   },
   plugins: [],
 }
