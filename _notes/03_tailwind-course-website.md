@@ -68,5 +68,24 @@ theme: {
 ```
 
 # 05. Deployment
+- tutorial deploys it to netlify but I don't want to do that yet.
+
+# 06. VS Code Settings
+- mostly just using the Tailwind CSS Intellisense is really recommened but I already had that installed.
+
+# 07. Setting up HTML
+- cleaned up index.html
+- added section comments
+``` HTML index.html
+<!-- header/navigation ====================-->
+<!-- hero =================================-->
+<!-- overview =============================-->
+<!-- about me =============================-->
+<!-- what you'll learn ====================-->
+<!-- what we'll build =====================-->
+<!-- pricing ==============================-->
+<!-- faq ==================================-->
+<!-- footer/newsletter ====================-->
+```
 
 left vid at: 04:29:20
