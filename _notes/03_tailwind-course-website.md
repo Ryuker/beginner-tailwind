@@ -89,6 +89,21 @@ theme: {
 ```
 
 # 08. Header/navigation
+- added HTML skeleton for links
+``` HTML
+<div>
+  <!-- left header section -->
+  <a href="#">Beginner Tailwind</a>
+  <a href="#">About</a>
+  <a href="#">What You'll Learn</a>
+  <a href="#">Pricing</a>
+  <a href="#">FAQ</a>
+  
+  <!--  right header section -->
+  <a href="#">Login</a>
+  <a href="#">Get the Course</a>
+</div>
+```
 
 
 left vid at: 05:00:38
