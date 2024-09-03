@@ -152,7 +152,7 @@ theme: {
 - added hero HTML skeleton
 ``` HTML
 <div>
-  <div class="container mx-auto px-6 lg:px-0">
+  <div class="container mx-auto px-6 lg:px-0 text-center">
     <!-- heading -->
     <h1>Beginner Tailwind</h1>
 
