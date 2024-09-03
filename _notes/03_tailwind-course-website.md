@@ -197,7 +197,7 @@ theme: {
     <img src="https://i.imgur.com/wysbBMS.png" alt="teaser-image" />
 
     <!-- teaser image info box -->
-    <div class="absolute top-0 right-0">
+    <div class="absolute top-0 right-0 bg-yellow-100 transform translate-x-4 -translate-y-4">
       <p>We'll create BeginnerTailwind.com (it's the site you're on now).</p> 
       <p>We'll do it all without a single line of custom CSS!</p>
     </div>
