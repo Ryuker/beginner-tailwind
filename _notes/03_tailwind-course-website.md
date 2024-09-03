@@ -219,6 +219,12 @@ theme: {
 </h1>
 ```
 
+- added styling to 'Get The Course'
+``` HTML
+<!-- big button/ call to action -->
+<a href="#" class="inline-block mb-32">Get The Course</a>
+```
+
 
 
 
