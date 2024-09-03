@@ -127,6 +127,10 @@ theme: {
 <div class="text-gray-700">
 ```
 
+- changed color of home link | `text-teal-800`
+- added hover color to all other links | `hover:text-gray-900`
+ 
+
 
 
 
