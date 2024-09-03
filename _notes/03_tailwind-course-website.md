@@ -148,6 +148,9 @@ theme: {
 <div class="flex items-center space-x-4">
 ```
 
+# 09. Hero section
+
+
 
 
 
