@@ -174,6 +174,37 @@ theme: {
 </div>
 ```
 
+- centered the container text
+``` HTML
+<div class="container mx-auto px-6 lg:px-0 py-24 text-center">
+```
+
+- Added bottom margins
+- moved some text to the top right of the image
+``` HTML
+<div class="container mx-auto px-6 lg:px-0 py-24 text-center">
+  <!-- heading -->
+  <h1 class="mb-4">Beginner Tailwind</h1>
+
+  <!-- paragraph -->
+  <p class="mb-8">Make good looking designs quickly. All without a single line of custom css.</p>
+
+  <!-- big button/ call to action -->
+  <a href="#" class="inline-block mb-32">Get The Course</a>
+
+  <!-- teaser image -->
+  <div class="relative">
+    <img src="https://i.imgur.com/wysbBMS.png" alt="teaser-image" />
+
+    <!-- teaser image info box -->
+    <div class="absolute top-0 right-0">
+      <p>We'll create BeginnerTailwind.com (it's the site you're on now).</p> 
+      <p>We'll do it all without a single line of custom CSS!</p>
+    </div>
+  </div>
+</div>
+```
+
 
 
 
