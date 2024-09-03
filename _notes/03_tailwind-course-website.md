@@ -108,6 +108,17 @@ theme: {
 ``` HTML
 <div class="container mx-auto flex justify-between px-6 lg:px-0 py-6">
 ```
+- added spacing between links
+``` HTML 
+<!-- left section -->
+<div class="space-x-4">
+<!-- other code -->
+
+<!-- right  -->
+<div class="space-x-2">
+```
+
+
 
 
 left vid at: 05:00:38
