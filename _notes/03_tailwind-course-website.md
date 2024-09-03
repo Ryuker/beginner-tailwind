@@ -122,6 +122,11 @@ theme: {
 <a href="#" class="font-bold text-2xl">Beginner Tailwind</a>
 ```
 
+- Made the links gray using a class on the wrapping div
+``` HTML
+<div class="text-gray-700">
+```
+
 
 
 
