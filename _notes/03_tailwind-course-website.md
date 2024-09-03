@@ -134,6 +134,22 @@ theme: {
 <a href="#" class="inline-block p-3 bg-purple-300 hover:bg-purple-200 text-purple-700 hover:text-purple-600 rounded shadow hover:shadow-xl transition duration-500">Get the Course</a>
 ```
 
+## Adding responsive styling
+- hid the remaining left side links on mobile size
+``` HTML
+<a href="#" class="hidden lg:inline-block hover:text-gray-900">About</a>
+```
+- hid the 'Get The Course' link as well
+``` HTML
+<a href="#" class="hidden lg:inline-block p-3 bg-purple-300 hover:bg-purple-200 text-purple-700 hover:text-purple-600 rounded shadow hover:shadow-xl transition duration-500">Get the Course</a>
+```
+- vertical centered the right side contents
+``` HTML
+<div class="flex items-center space-x-4">
+```
+
+
+
 
 
 
