@@ -104,6 +104,10 @@ theme: {
   <a href="#">Get the Course</a>
 </div>
 ```
+- styled wrapping container
+``` HTML
+<div class="container mx-auto flex justify-between px-6 lg:px-0 py-6">
+```
 
 
 left vid at: 05:00:38
