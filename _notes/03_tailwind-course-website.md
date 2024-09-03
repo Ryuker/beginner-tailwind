@@ -205,6 +205,20 @@ theme: {
 </div>
 ```
 
+## Styling the Hero section
+- h1 styling
+  - made the text large and extra bold
+``` HTML
+<h1 class="mb-4 text-6xl font-extrabold">Beginner Tailwind</h1>
+```
+- added text gradient
+``` HTML
+<h1 class="mb-4 text-6xl font-extrabold ">
+  <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-500">Beginner</span> 
+  <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-purple-600 to-purple-500">Tailwind</span>
+</h1>
+```
+
 
 
 
