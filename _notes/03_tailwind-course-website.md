@@ -249,10 +249,5 @@ theme: {
 </div>
 ```
 
-
-
-
-
-
-
-left vid at: 05:00:38
+# 10. Making the background more fun to look at
+left vid at: 05:40:17
