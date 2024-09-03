@@ -108,14 +108,18 @@ theme: {
 ``` HTML
 <div class="container mx-auto flex justify-between px-6 lg:px-0 py-6">
 ```
-- added spacing between links
+- added spacing between links and centered them
 ``` HTML 
 <!-- left section -->
-<div class="space-x-4">
+<div class="flex items-center space-x-4">
 <!-- other code -->
 
 <!-- right  -->
-<div class="space-x-2">
+<div class="flex items-center space-x-4">
+```
+- Made home link bold
+``` HTML
+<a href="#" class="font-bold text-2xl">Beginner Tailwind</a>
 ```
 
 
