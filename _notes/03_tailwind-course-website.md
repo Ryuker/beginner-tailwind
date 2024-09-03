@@ -219,10 +219,16 @@ theme: {
 </h1>
 ```
 
-- added styling to 'Get The Course'
+- added styling to hero paragraph
+``` HTML
+<!-- paragraph -->
+<p class="mb-8 text-2xl text-gray-700">Make good looking designs quickly. All without a single line of custom css.</p>
+```
+
+- Added styling to 'Get The Course' button
 ``` HTML
 <!-- big button/ call to action -->
-<a href="#" class="inline-block mb-32">Get The Course</a>
+<a href="#" class="inline-block mb-32 py-3 px-12 rounded bg-gradient-to-br from-purple-500 to-purple-700 hover:to-purple-600 font-bold text-lg tracking-wide text-purple-100 hover:text-white shadow-lg hover:shadow-2xl transition duration-500">Get The Course</a>
 ```
 
 
