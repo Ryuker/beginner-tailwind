@@ -236,6 +236,19 @@ theme: {
 <img src="https://i.imgur.com/wysbBMS.png" alt="teaser-image" class="rounded-lg shadow-2xl border-4 border-purple-200"/>
 ```
 
+- added styling to teaser image info box
+``` HTML
+<!-- teaser image info box -->
+  <div class="absolute top-0 right-0 bg-yellow-50 transform translate-x-4 -translate-y-4 text-left py-4 px-8 rounded shadow-lg text-yellow-800 border-t-4 border-yellow-500">
+    <p>
+      <strong class="font-bold">We'll create BeginnerTailwind.com</strong>
+      <span class="opacity-50">(it's the site you're on now)</span>
+    </p> 
+    <p>We'll do it all without a single line of custom CSS!</p>
+  </div>
+</div>
+```
+
 
 
 
