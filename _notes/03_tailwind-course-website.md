@@ -124,12 +124,16 @@ theme: {
 
 - Made the links gray using a class on the wrapping div
 ``` HTML
-<div class="text-gray-700">
+<div class="text-gray-600">
 ```
 
 - changed color of home link | `text-teal-800`
 - added hover color to all other links | `hover:text-gray-900`
- 
+- added hover color and transition to `Get Course` link
+``` HTML
+<a href="#" class="inline-block p-3 bg-purple-300 hover:bg-purple-200 text-purple-700 hover:text-purple-600 rounded shadow hover:shadow-xl transition duration-500">Get the Course</a>
+```
+
 
 
 
