@@ -298,6 +298,23 @@ theme: {
 <div class="text-lg lg:text-2xl
 ```
 
+- modified image info box to only translate on large screens
+  - done by adding `lg:` infront of the absolute posititioning and the transform and translate classes
+  - also gave it responsive padding `py-4 mt-8 lg:mt-0`
+
+- also made the info box resize the `it's the site you're on now` portion responsively
+  - this wasn't in the tutorial
+``` HTML
+<!-- teaser image info box -->
+<div class="lg:absolute top-0 lg:right-0 bg-yellow-50 lg:transform lg:translate-x-4 lg:-translate-y-4 text-left py-4 mt-8 lg:mt-0 px-8 rounded shadow-lg text-yellow-800 border-t-4 border-yellow-500">
+  <p class="flex sm:inline-block sm:flex-col">
+    <strong class="font-bold">We'll create BeginnerTailwind.com</strong>
+    <span class="bg-yellow-50 sm:bg-transparent absolute sm:relative right-0 pr-2 sm:pr-0 sm:left-0 sm:t-sm:right-0 transform -translate-y-5 sm:transform-none sm:-transform-y-none opacity-50 flex justify-end sm:inline-block">(it's the site you're on now)</span>
+  </p> 
+  <p>We'll do it all without a single line of custom CSS!</p>
+</div>
+```
+
 
 
 left vid at: 05:40:17
