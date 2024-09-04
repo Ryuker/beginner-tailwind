@@ -289,6 +289,14 @@ theme: {
 ``` HTML
 <div class=" hidden lg:block
 ```
+- modified hero heading to change to a smaller text size on mobile
+``` HTML
+<div class="text-5xl lg:text-6xl
+```
+- modified header paragraph to shift to a smaller text size on mobile
+``` HTML
+<div class="text-lg lg:text-2xl
+```
 
 
 
