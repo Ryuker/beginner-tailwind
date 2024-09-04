@@ -250,6 +250,7 @@ theme: {
 ```
 
 # 10. Making the background more fun to look at
+## BG Gradient
 - wrapped the navigation and hero in a div with a gradient on it
 ``` HTML
 <div class="bg-gradient-to-br from-white to-gray-300">
@@ -257,4 +258,21 @@ theme: {
   <!-- hero -->
 </div>
 ```
+
+## BG Circles
+- added left circle decoration divs with styling
+  - it's fairly simple using a gradient and some margin offsets
+  - it's import to have it positioned absolute and then have the navigation and hero positioned `relative`
+    - this goes on their wrapping div.
+``` HTML
+<!-- left circle decoration -->
+<div class="absolute top-0 left-0">
+  <div class="absolute bg-gradient-to-br from-teal-100 to-teal-200 w-64 h-64 rounded-full opacity-50"></div>
+  <div class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full opacity-50"></div>
+  <div class="absolute ml-24 bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
+</div>
+```
+
+
+
 left vid at: 05:40:17
