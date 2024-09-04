@@ -315,6 +315,11 @@ theme: {
 </div>
 ```
 
+- added responsive margin to hero button
+``` HTML
+<div class="mb-16 lg:mb-32
+```
+
 
 
 left vid at: 05:40:17
