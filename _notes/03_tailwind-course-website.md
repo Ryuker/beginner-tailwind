@@ -266,7 +266,7 @@ theme: {
     - this goes on their wrapping div.
 ``` HTML
 <!-- left circle decoration -->
-<div class="absolute top-0 left-0">
+<div class="absolute top-0 left-0 transform translate-x-4 translate-y-4">
   <div class="absolute bg-gradient-to-br from-teal-50 to-teal-200 w-64 h-64 rounded-full opacity-50"></div>
   <div class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-50 to-purple-200 w-64 h-64 rounded-full opacity-50"></div>
   <div class="absolute ml-24 bg-gradient-to-br from-red-50 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
@@ -282,6 +282,12 @@ theme: {
   <div class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full opacity-50"></div>
   <div class="absolute ml-24 bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
 </div>
+```
+
+# 11. Responsiveness of Hero section
+- made sure the right circle decorations are hidden on mobile
+``` HTML
+<div class=" hidden lg:block
 ```
 
 
