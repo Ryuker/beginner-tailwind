@@ -250,4 +250,11 @@ theme: {
 ```
 
 # 10. Making the background more fun to look at
+- wrapped the navigation and hero in a div with a gradient on it
+``` HTML
+<div class="bg-gradient-to-br from-white to-gray-300">
+  <!-- navigation -->
+  <!-- hero -->
+</div>
+```
 left vid at: 05:40:17
