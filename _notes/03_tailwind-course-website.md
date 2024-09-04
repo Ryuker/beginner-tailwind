@@ -267,6 +267,17 @@ theme: {
 ``` HTML
 <!-- left circle decoration -->
 <div class="absolute top-0 left-0">
+  <div class="absolute bg-gradient-to-br from-teal-50 to-teal-200 w-64 h-64 rounded-full opacity-50"></div>
+  <div class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-50 to-purple-200 w-64 h-64 rounded-full opacity-50"></div>
+  <div class="absolute ml-24 bg-gradient-to-br from-red-50 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
+</div>
+```
+
+- added right circle decoration
+  - the same design but offset from the top and positioned to the right of the screen
+  - colors increased because they are lighter on the gradient
+``` HTML
+<div class="absolute top-0 right-0 mr-48 transform -translate-x-64 translate-y-64">
   <div class="absolute bg-gradient-to-br from-teal-100 to-teal-200 w-64 h-64 rounded-full opacity-50"></div>
   <div class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full opacity-50"></div>
   <div class="absolute ml-24 bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
