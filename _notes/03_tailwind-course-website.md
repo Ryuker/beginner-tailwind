@@ -382,6 +382,21 @@ theme: {
 </div>
 ```
 
+## Styling of Overview Header
+``` HTML
+<h2 class="mb-10 text-6xl font-bold text-purple-50">Writing CSS is tough stuff!</h2>
+```
+
+## Styling of Overview Left Column
+- rounded the column, 
+- added a shadow
+- gave it an overval text color, size and y spacing
+``` HTML
+<div class="flex space-x-16">
+  <!-- left column -->
+  <div class="w-2/3 bg-white p-16 rounded shadow-2xl text-gray-800 text-lg space-y-8">
+```
+
 
 
 
