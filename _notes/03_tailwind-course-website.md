@@ -415,6 +415,16 @@ theme: {
 ```
 
 ## Overlapping elements with the BG to make for a fluid design
+- added div to hero section to function as purple bar
+  - it's positioned absolute and covers the full width of the screen
+``` HTML
+<!-- purple bar to help with the section transition -->
+<div class="absolute bottom-0 inset-x-0 h-64 bg-purple-700"></div>
+```
+- reduced the y padding by half on the overview section
+``` HTML
+<div class="pb-24 pt-12
+```
 
 
 
