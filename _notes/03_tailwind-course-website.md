@@ -516,6 +516,9 @@ theme: {
 </div>
 ```
 
+## Responsive design of About Me section
+
+
 
 
 
