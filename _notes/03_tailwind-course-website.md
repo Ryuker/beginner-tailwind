@@ -517,7 +517,30 @@ theme: {
 ```
 
 ## Responsive design of About Me section
+```HTML
+<!-- about me =============================-->
+<div class="bg-gray-200 px-6 lg:pt-12 pb-24 lg:text-center">
+  <div class="container mx-auto px-6 lg:px-0 flex flex-col">
+    <h2 class="mb-3 mx-auto text-3xl lg:text-6xl font-bold text-teal-700">About Me</h2>
+    <p class="mb-12 text-base lg:text-xl leading-loose">Lorem ipsum dolor sit amet <a href="#" class="text-blue-500 hover:underline">consectetur</a> Aliquam officia dolorum similique fuga? Ipsum quibusdam veniam sunt ratione placeat quod, enim blanditiis id nostrum alias error accusamus nesciunt at ut? Laborum assumenda beatae eveniet voluptatem quam at animi, ipsum, excepturi atque non obcaecati autem cupiditate maxime, explicabo ipsam illum commodi laboriosam in! Repudiandae mollitia iste ipsum suscipit sequi molestiae, fugit laborum illo vitae ratione? Quos rem officia ullam suscipit quaerat esse saepe quibusdam et!</p>
 
+    <!-- videos -->
+    <div class="lg:flex lg:space-x-8 text-left space-y-8 lg:space-y-0">
+      <!-- first video -->
+      <div class="lg:w-1/2 bg-white rounded border-2 border-gray-700 shadow-xl">
+        <p class="text-lg p-4 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <iframe class="w-full rounded-b-2" height="315" src="https://www.youtube.com/embed/NRagrTU_v8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div>
+
+      <!-- second video -->
+      <div class="lg:w-1/2 bg-white rounded border-2 border-gray-700 shadow-xl">
+        <p class="text-lg p-4 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <iframe class="w-full rounded-b-2" height="315" src="https://www.youtube.com/embed/NRagrTU_v8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+```
 
 
 
