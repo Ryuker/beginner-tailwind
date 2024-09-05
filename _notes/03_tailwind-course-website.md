@@ -426,6 +426,14 @@ theme: {
 <div class="pb-24 pt-12
 ```
 
+- added gray div to overview section for same effect
+  - important to make the parent div `relative` and also the div of the overview container.
+    - this way the overview container is positioned over the absolute positioned element.
+``` HTML
+<!-- purple bar to help with the section transition -->
+<div class="absolute bottom-0 inset-x-0 h-64 bg-gray-200"></div>
+```
+
 
 
 
