@@ -352,7 +352,7 @@ theme: {
 </div>
 ```
 
-# Layout Positioning
+## Layout Positioning
 - modified overview with basic background, flexing and margins/padding
 ``` HTML
 <div class="bg-purple-700 py-24">
@@ -469,7 +469,25 @@ theme: {
 
 </div>
 ```
+# 13. About Me section 
+- added `about me` section
+  - without following the tutorial
+``` HTML
+<div class="relative bg-gray-200 px-6">
+  <div class="container mx-auto flex flex-col items-center space-y-6">
+    <h2 class="text-3xl lg:text-5xl font-bold text-teal-700">A Tailwind Video I've Done</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nulla odio voluptates asperiores unde architecto veritatis dolore dolores ipsam, neque enim eius saepe ipsum soluta veniam delectus blanditiis. Reprehenderit, consequuntur?</p>
 
+    <div class="flex flex-col justify-between rounded border-2 border-gray-700 lg:w-1/2">
+      <p class="p-4 lg:p-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div>
+        <iframe class="w-full rounded-b" height="400" src="https://www.youtube.com/embed/NRagrTU_v8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div>
+    </div>
+
+  </div>
+</div>
+``` 
 
 
 
