@@ -543,6 +543,41 @@ theme: {
 ```
 
 # 14. What you'll learn in this course section
+## Own version
+- added wrapping div with nested container
+- added heading into container
+``` HTML
+<div class="py-32 bg-gray-200 text-gray-700">
+      <div class="container mx-auto px-6 lg:px-0">
+        <!-- header -->
+        <h2 class="mb-20 text-6xl font-bold text-gray-800 text-center">What you'll learn in this course</h2>
+        
+        <!-- Learnings -->
+        <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-10">
+          lessons
+        </div>
+    </div>
+
+  </div>
+</div>
+```
+- Added 'learnings' div
+  - fairly simple, the circles were the most complex
+``` HTML
+<div class="rounded border-2 border-gray-700 bg-transparent">
+  <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
+    <span>How to use Tailwind classes</span>
+    <!-- circle decorations -->
+    <div class="flex items-center gap-2">
+      <div class="rounded-full w-3 h-3 bg-red-500"></div>
+      <div class="rounded-full w-3 h-3 bg-yellow-500"></div>
+      <div class="rounded-full w-3 h-3 bg-green-500"></div>
+    </div>
+  </div>
+  <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptate expedita aliquid, optio ut assumenda! Expedita non eligendi amet, labore praesentium nemo mollitia itaque, nobis repellat facilis iure, veniam molestias!</p>
+</div>
+```
+
 
 
 
