@@ -778,6 +778,9 @@ theme: {
 <div class="flex space-x-2">
 ```
 
+## Responsive tweaks
+- only added responsiveness to the header text size 
+
 
 
 
