@@ -757,6 +757,16 @@ theme: {
 ## Tutorial corrections
 - changed the elements to have a `shadow-lg`
 
+- header fun elements
+  - added gradient lines using absolute positioning
+``` HTML
+<!-- section header -->
+<div class="relative">
+  <h2 class="mb-32 text-6xl font-bold text-purple-800 text-center">What you'll learn in this course</h2>
+  <div class="absolute left-0 top-0 h-2 w-1/3 rounded bg-gradient-to-r from-blue-400 to-purple-600 transform -translate-y-4"></div>
+  <div class="absolute right-0 bottom-0 h-2 w-1/3 rounded bg-gradient-to-r from-purple-600 to-blue-400 transform translate-y-4"></div>
+</div> 
+```
 
 
 
