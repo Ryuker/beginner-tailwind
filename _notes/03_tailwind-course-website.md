@@ -564,7 +564,7 @@ theme: {
 - Added 'learnings' div
   - fairly simple, the circles were the most complex
 ``` HTML
-<div class="rounded border-2 border-gray-700 bg-transparent">
+<div class="rounded-lg border-2 border-gray-700 bg-transparent">
   <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
     <span>How to use Tailwind classes</span>
     <!-- circle decorations -->
