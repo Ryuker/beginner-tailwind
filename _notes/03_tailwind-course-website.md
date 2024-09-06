@@ -566,7 +566,7 @@ theme: {
 ``` HTML
 <div class="rounded-lg border-2 border-gray-700 bg-transparent">
   <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-    <span>How to use Tailwind classes</span>
+    <h3>How to use Tailwind classes</h3>
     <!-- circle decorations -->
     <div class="flex items-center gap-2">
       <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -596,7 +596,7 @@ theme: {
 
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>How to use Tailwind classes</span>
+              <h3>How to use Tailwind classes</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -609,7 +609,7 @@ theme: {
           
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>Make good looking designs</span>
+              <h3>Make good looking designs</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -622,7 +622,7 @@ theme: {
           
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>Why Tailwind is different/better</span>
+              <h3>Why Tailwind is different/better</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -636,7 +636,7 @@ theme: {
           <!-- 2nd row  -->
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-3">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>How to build this site (site-ception!)</span>
+              <h3>How to build this site (site-ception!)</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -649,7 +649,7 @@ theme: {
           </div>
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-3">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>A fun and methodical design process</span>
+              <h3>A fun and methodical design process</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -663,7 +663,7 @@ theme: {
           <!-- 3rd row -->
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>Creating common components</span>
+              <h3>Creating common components</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -679,7 +679,7 @@ theme: {
 
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>Shrinking bundle sizes</span>
+              <h3>Shrinking bundle sizes</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -696,7 +696,7 @@ theme: {
 
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>Using Tailwind w/ React</span>
+              <h3>Using Tailwind w/ React</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -713,7 +713,7 @@ theme: {
           <!-- 4th row -->
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>How to customize Tailwind</span>
+              <h3>How to customize Tailwind</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -726,7 +726,7 @@ theme: {
 
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>Using Tailwind in VS Code</span>
+              <h3>Using Tailwind in VS Code</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
@@ -739,7 +739,7 @@ theme: {
 
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
-              <span>Extending Tailwind</span>
+              <h3>Extending Tailwind</h3>
               <!-- circle decorations -->
               <div class="flex items-center gap-2">
                 <div class="rounded-full w-3 h-3 bg-red-500"></div>
