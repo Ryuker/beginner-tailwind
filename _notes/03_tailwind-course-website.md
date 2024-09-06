@@ -768,6 +768,16 @@ theme: {
 </div> 
 ```
 
+- `learnings` style differences
+  - wrapping div is a bit different
+``` HTML
+<div class="flex justify-between items-center p-4 border-b-2 border-gray-700 text-lg font-bold">
+```  
+  - changed circle decorations wrapper to use `space-x-2` instead 
+``` HTML
+<div class="flex space-x-2">
+```
+
 
 
 
