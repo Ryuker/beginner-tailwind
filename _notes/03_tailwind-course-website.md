@@ -592,7 +592,7 @@ theme: {
         <h2 class="mb-20 text-6xl font-bold text-gray-800 text-center">What you'll learn in this course</h2>
         
         <!-- Learnings -->
-        <div class="w-full lg:grid grid-cols-1 lg:grid-cols-6 gap-10 space-y-6 lg:space-y-0">
+        <div class="w-full lg:grid lg:grid-cols-6 gap-10 space-y-6 lg:space-y-0">
 
           <div class="rounded-lg border-2 border-gray-700 bg-transparent col-span-2">
             <div class="w-full flex justify-between p-4 border-b-2 border-gray-700 text-lg font-bold">
@@ -753,6 +753,9 @@ theme: {
       </div>
     </div>
 ```
+
+## Tutorial corrections
+- changed the elements to have a `shadow-lg`
 
 
 
