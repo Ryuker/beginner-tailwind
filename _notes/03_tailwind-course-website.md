@@ -578,6 +578,10 @@ theme: {
 </div>
 ```
 
+- modified grid cols to 6 on the learnings wrapper | | `lg:grid-cols-6`
+  - so we can half it on the learning elements | `col-span-2` | `col-span-3`
+
+
 
 
 
