@@ -782,9 +782,9 @@ theme: {
 - only added responsiveness to the header text size 
 
 
+# 15. What we'll build in this course' section
 
 
 
 
-
-left vid at: 06:38:23
+left vid at: 07:04:23
