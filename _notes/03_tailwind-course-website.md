@@ -810,6 +810,32 @@ theme: {
 ```
 
 ## Tutorial corrections
+- corrected some padding and margin differences
+``` HTML
+<div class="py-24 bg-gray-200">
+  <div class="container mx-auto px-6 lg:px-0">
+```
+- heading corrections
+``` HTML
+<!-- heading -->
+<div class="text-center mb-8 text-gray-800">
+  <h2 class="mb-2 text-4xl">What We'll Build</h2>
+  <p class="text-lg">These components are things you'll have to create in every project</p>
+</div>
+```
+
+- component div corrections
+  - kept a few things in my version since that words fine as well
+``` HTML
+ <!-- components -->
+<div class="grid grid-cols-4 gap-5">
+  <!-- component -->
+  <div class="bg-gray-50 flex items-center rounded shadow-md">
+    <div class="w-1/3 flex justify-center bg-red-500 py-2 rounded-l text-3xl">😍</div>
+    <div class="px-4 text-gray-800">Buttons</div>
+  </div>
+</div>
+```
 
 
 
