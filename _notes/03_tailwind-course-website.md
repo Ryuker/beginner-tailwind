@@ -851,6 +851,50 @@ theme: {
 </div>
 ```
 
+# 16. Pricing section
+
+## My version
+- added my version HTML skeleton
+``` HTML
+<div class="py-24 bg-blue-600">
+  <div class="container mx-auto flex justify-center px-8 lg:px-0 space-x-8">
+    <div class="flex justify-between items-center max-w-7xl space-x-8">
+
+      <!-- left section -->
+      <div>
+        <p>75 videos at a smooth pace</p>
+        <p>9.25 hours of learning + building</p>
+        <p>Source code and CodePens</p>
+      </div>
+      
+      <!-- middle section -->
+      <div class="bg-white border-8 border-purple-700 rounded">
+        <span>Start Tailwind-ing!</span>
+        <span>$45</span>
+        <a href="#">Buy this Course <strong></strong>GUMROAD</a>
+      </div>
+
+      <!-- right section -->
+      <div>
+        <p>Use the code in your projects</p>
+        <p>Access to Discord for support</p>
+        <p>Lifetime refund guarantee</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+```
+- styled middle section
+``` HTML
+<!-- middle section -->
+<div class="flex flex-col items-center py-8 px-8 space-y-6 bg-white border-8 border-purple-700 rounded">
+  <span class="text-gray-700 text-lg">Start Tailwind-ing!</span>
+  <span class="text-gray-600 text-6xl">$45</span>
+  <a href="#" class="bg-black py-2 px-12 text-gray-100 rounded">Buy this Course <strong class="font-bold">GUMROAD</strong></a>
+</div>
+```
+
 
 
 
