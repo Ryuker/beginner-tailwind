@@ -857,8 +857,7 @@ theme: {
 - added my version HTML skeleton
 ``` HTML
 <div class="py-24 bg-blue-600">
-  <div class="container mx-auto flex justify-center px-8 lg:px-0 space-x-8">
-    <div class="flex justify-between items-center max-w-7xl space-x-8">
+      <div class="container mx-auto flex justify-center max-w-7xl px-8 lg:px-0 space-x-8">
 
       <!-- left section -->
       <div>
@@ -892,6 +891,31 @@ theme: {
   <span class="text-gray-700 text-lg">Start Tailwind-ing!</span>
   <span class="text-gray-600 text-6xl">$45</span>
   <a href="#" class="bg-black py-2 px-12 text-gray-100 rounded">Buy this Course <strong class="font-bold">GUMROAD</strong></a>
+</div>
+```
+
+- Styled left and right section
+``` HTML
+<!-- left section -->
+<div class="w-1/3 flex flex-col justify-center text-center text-2xl leading-loose text-blue-200">
+  <div>
+    <strong class="font-bold text-white">75 videos</strong> at a smooth pace
+  </div>
+  <div>
+    <strong class="font-bold text-white">9.25 hours</strong> of learning + building
+  </div>
+  <div>
+    <strong class="font-bold text-white">Source code</strong> and CodePens
+  </div>
+</div>
+
+<!-- right section -->
+<div class="w-1/3 flex flex-col justify-center text-center text-2xl leading-loose text-blue-200">
+  <div>Use the code in 
+    <strong class="font-bold text-white">your projects</strong>
+  </div>
+  <div>Access to <strong class="font-bold text-white">Discord</strong> for support</div>
+  <div>Lifetime <strong class="font-bold text-white">refund guarantee</strong></div>
 </div>
 ```
 
