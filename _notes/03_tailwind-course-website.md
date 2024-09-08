@@ -837,6 +837,20 @@ theme: {
 </div>
 ```
 
+## Responsive tweaks
+- only thing changes is the grid cols get responsive breakpoints
+``` HTML
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+```
+- made some small tweaks to the heading as well
+``` HTML
+<!-- heading -->
+<div class="text-center mb-8 text-gray-800">
+  <h2 class="mb-2 text-4xl">What We'll Build</h2>
+  <p class="px-20 sm:px-0 text-lg">These components are things you'll have to create in every project</p>
+</div>
+```
+
 
 
 
