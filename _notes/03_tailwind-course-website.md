@@ -975,7 +975,26 @@ theme: {
 ```
 
 # 17. FAQ section
-- 
+## My version
+- styled the faq item since this is the most complex of the design
+``` HTML
+<div class="p-8 rounded-lg border-2 border-gray-500 space-y-4">
+  <h3 class="text-xl text-gray-200">Do I need to know CSS?</h3>
+  <p>This course is aimed at people that have some CSS knowledge and want to learn Tailwind. I do talk through CSS concepts and why we're using certain classes all throughout the course so you don't need to be a CSS expert.</p>
+</div>
+```
+
+- rest of the layout styling
+``` HTML
+<div class="relative pt-16 pb-32 bg-gray-800 text-gray-400">
+  <div class="container mx-auto">
+    <h2 class="text-center mb-12 text-3xl">Frequently Asked Questions</h2>
+    <!-- grid faq wrapper -->
+    <div class="grid grid-cols-2 gap-8">
+    </div>
+  </div>
+</div> 
+```
 
 
 
