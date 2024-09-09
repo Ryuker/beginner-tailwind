@@ -974,7 +974,9 @@ theme: {
 </div>
 ```
 
+# 17. FAQ section
+- 
 
 
 
-left vid at: 07:16:05
+left vid at: 07:49:46
