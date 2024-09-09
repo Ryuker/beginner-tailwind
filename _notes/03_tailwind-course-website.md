@@ -923,6 +923,21 @@ theme: {
 - added some hover behaviour
 
 ## Tutorial corrections
+- there's various differences that I don't find that I didn't feel necessary to adapt the code to.
+- added `block` to the button to have it take up the full element
+- some corrections to the price element
+  - gave it a purple color and made text bold
+  - wrapped dollar sign into a span class
+  - added a transform on hover state to scale the while pricing wrapper element with a duration
+``` HTML
+<div class="w-1/3 flex flex-col items-center py-8 px-8 space-y-6 bg-white border-8 border-purple-700 rounded hover:transform hover:scale-105 transition duration-500">
+            <h4 class="text-gray-700 text-lg">Start Tailwind<span class="italic">-ing</span>!</h4>
+            <div class="text-purple-800 text-6xl font-bold">
+              <span class="font-bold opacity-50">$</span>45
+            </div>
+            <a href="#" class="block bg-purple-600 hover:bg-pink-400 py-2 px-12 text-gray-100 rounded drop-shadow-lg">Buy this Course</a>
+          </div>
+```
 
 
 
