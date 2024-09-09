@@ -919,6 +919,11 @@ theme: {
 </div>
 ```
 
+- added absolute gray div to break up the page layout
+- added some hover behaviour
+
+## Tutorial corrections
+
 
 
 
