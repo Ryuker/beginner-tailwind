@@ -952,6 +952,28 @@ theme: {
 </div>
 ```
 
+## Responsive support
+- mostly modified to reorder the elements on mobile
+  - also added some width responsiveness
+``` HTML
+<div class="relative container mx-auto flex flex-col items-center lg:flex-row lg:justify-center max-w-7xl px-8 lg:px-0 space-x-0 lg:space-x-8">
+
+  <!-- left section -->
+  <div class="lg:w-1/3 order-2 lg:order-1 pt-16 flex flex-col justify-center text-center text-2xl leading-loose text-blue-200">
+    <!-- content -->
+  </div>
+  
+  <!-- middle section -->
+  <div class="relative order-1 lg:order-2 w-full sm:w-1/2 lg:w-1/3 text-center py-8 px-8 space-y-6 bg-white border-8 border-purple-700 rounded hover:transform hover:scale-105 transition duration-500">
+    <!-- content -->
+  </div>
+
+  <!-- right section -->
+  <div class="order-3 lg:w-1/3 pt-16 flex flex-col justify-center text-center text-2xl leading-loose text-blue-200">
+    <!-- content -->
+</div>
+```
+
 
 
 
