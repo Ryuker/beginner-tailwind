@@ -939,6 +939,19 @@ theme: {
           </div>
 ```
 
+- added decoration to pricing element
+  - 3 beams shooting out with different colors
+  - required absolute positioning so the parent element is positioned relative
+  - modified parent to use text center instead of flex
+``` HTML
+<!-- showoff beam thing -->
+<div class="absolute top-0 inset-x-0 transform -translate-y-full flex justify-center space-x-8 items-end">
+  <div class="w-2 h-16 mb-8 bg-red-500 rounded transform -rotate-45 origin-bottom"></div>
+  <div class="w-2 h-24 mb-8 bg-yellow-500 rounded origin-bottom"></div>
+  <div class="w-2 h-16 mb-8 bg-green-500 rounded transform rotate-45 origin-bottom"></div>
+</div>
+```
+
 
 
 
