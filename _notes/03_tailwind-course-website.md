@@ -1066,5 +1066,58 @@ theme: {
   </div>
 ```
 
+- Modified with rudimentary layout styling
+``` HTML
+<div class="py-32 bg-gradient-to-br from-purple-100 to-gray-200">
+  <div class="relative">
+    <div class="container mx-auto px-6 lg:px-0 flex items-center flex-wrap">
+      <div class="w-full flex pb-20 border-b-2 border-gray-300">
+        <!-- newsletter -->
+        <div class="bg-green-100 w-1/2">
+          <h2>Get updates on this course</h2>
+          <form type="submit">
+            <input type="text" placeholder="super@secret.com"/>
+            <button>Subscribe</button>
+          </form>
+        </div>
+        <!-- site map  -->
+        <div class="bg-blue-100 w-1/2 flex justify-end text-right">
+          <div class="flex-grow">
+            <h2 class="uppercase tracking-wider">Company</h2>
+            <a href="#" class="block">About</a>
+            <a href="#" class="block">Blog</a>
+            <a href="#" class="block">Careers</a>
+          </div>
+          <div class="flex-grow">
+            <h2 class="uppercase tracking-wider">Product</h2>
+            <a href="#" class="block">Pricing</a>
+            <a href="#" class="block">Documentation</a>
+            <a href="#" class="block">Guides</a>
+          </div>
+          <div class="flex-grow">
+            <h2 class="uppercase tracking-wider">Legal Stuff</h2>
+            <a href="#" class="block">Terms</a>
+            <a href="#" class="block">Privacy</a>
+            <a href="#" class="block">Rules</a>
+          </div>
+        </div>
+      </div>
+      <!-- copyright -->
+      <div class="w-full bg-red-200">
+        <div>
+          <span>Copyright © 2024 <a href="https://joerivanees.com">Joeri van Ees</a></span>
+        </div>
+        <div>
+          <a href="#">Twitter</a>
+          <a href="#">Discord</a>
+          <a href="#">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+```
+
 
 left vid at: 07:49:46
