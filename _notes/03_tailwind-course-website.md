@@ -1162,8 +1162,23 @@ theme: {
     <a href="#" class="block hover:underline">Rules</a>
   </div>
 </div>
-</div>
 ```
+
+- styled copyright and social links element
+``` HTML
+<!-- copyright -->
+<div class="w-full pt-8 flex justify-between text-gray-500">
+  <div>
+    <span>Copyright © 2024 <a href="https://joerivanees.com" class="hover:underline">Joeri van Ees</a></span>
+  </div>
+  <div class="space-x-4">
+    <a href="#" class="hover:underline">Twitter</a>
+    <a href="#" class="hover:underline">Discord</a>
+    <a href="#" class="hover:underline">Login</a>
+  </div>
+</div>
+``` 
+
 
 
 
