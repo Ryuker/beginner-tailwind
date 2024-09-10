@@ -1119,5 +1119,9 @@ theme: {
 </div>
 ```
 
+- Newsletter signup element
+  - modified h2 with rudimentary styling before implementing the gradient
+  
+
 
 left vid at: 07:49:46
