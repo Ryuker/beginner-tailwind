@@ -1190,6 +1190,68 @@ theme: {
 </div>
 ```
 
+- responsive tweaks
+  - mostly flex behavior and space-y conditionals on different breakpoints
+``` HTML
+<!-- footer/newsletter ====================-->
+<div class="relative py-20 bg-gradient-to-br from-purple-100 to-gray-200">
+  <!-- left circle decoration -->
+  <div class="absolute top-0 left-0 transform translate-x-0 translate-y-0">
+    <div class="absolute bg-gradient-to-br from-teal-50 to-teal-200 w-64 h-64 rounded-full opacity-50"></div>
+    <div class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-50 to-purple-200 w-64 h-64 rounded-full opacity-50"></div>
+    <div class="absolute ml-24 bg-gradient-to-br from-red-50 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
+  </div>
+  <div class="relative">
+    <div class="container mx-auto max-w-7xl px-8 flex items-center flex-wrap">
+      <div class="w-full flex flex-col justify-center md:flex-row md:justify-between pb-20 border-b border-gray-300 space-y-12 md:space-y-0">
+        <!-- newsletter -->
+        <div class="flex flex-col justify-center space-y-4">
+          <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">Get updates on this course</h2>
+          <form type="submit" class="flex">
+            <input type="text" placeholder="super@secret.com" 
+              class="p-4 flex-grow outline-none border-2 border-r-0 border-gray-400 rounded-l focus:border-purple-400 placeholder:text-gray-300"
+            />
+            <button class="p-3 bg-purple-400 hover:bg-purple-600 text-purple-100 transition duration-300">Subscribe</button>
+          </form>
+        </div>
+        <!-- site map  -->
+        <div class="md:w-1/2 flex flex-col md:flex-row items-center justify-center md:justify-end text-center md:text-right space-y-12 md:space-y-0">
+          <div class="flex-grow text-gray-500 space-y-3">
+            <h2 class="text-purple-600 font-bold uppercase tracking-wider">Company</h2>
+            <a href="#" class="block hover:underline">About</a>
+            <a href="#" class="block hover:underline">Blog</a>
+            <a href="#" class="block hover:underline">Careers</a>
+          </div>
+          <div class="flex-grow text-gray-500 space-y-3">
+            <h2 class="text-purple-600 font-bold uppercase tracking-wider">Product</h2>
+            <a href="#" class="block hover:underline">Pricing</a>
+            <a href="#" class="block hover:underline">Documentation</a>
+            <a href="#" class="block hover:underline">Guides</a>
+          </div>
+          <div class="flex-grow text-gray-500 space-y-3">
+            <h2 class="text-purple-600 font-bold uppercase tracking-wider">Legal Stuff</h2>
+            <a href="#" class="block hover:underline">Terms</a>
+            <a href="#" class="block hover:underline">Privacy</a>
+            <a href="#" class="block hover:underline">Rules</a>
+          </div>
+        </div>
+      </div>
+      <!-- copyright -->
+      <div class="w-full pt-6 flex flex-col items-center md:flex-row justify-between text-gray-500 space-y-4 md:space-y-0">
+        <div>
+          <span>Copyright © 2024 <a href="https://joerivanees.com" class="hover:underline">Joeri van Ees</a></span>
+        </div>
+        <div class="space-x-4">
+          <a href="#" class="hover:underline">Twitter</a>
+          <a href="#" class="hover:underline">Discord</a>
+          <a href="#" class="hover:underline">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+```
 
 
 
