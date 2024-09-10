@@ -1120,14 +1120,14 @@ theme: {
 ```
 
 - Newsletter signup element
-  - modified h2 with rudimentary styling before implementing the gradient
+  - modified h2 with gradient styling and font size
   - styled form input with border, padding and focus border
   - styled form button with bg, padding and text color
   - spaced the header from the form button
 ``` HTML
 <!-- newsletter -->
 <div class="flex flex-col space-y-4">
-  <h2 class="text-5xl font-bold text-purple-500">Get updates on this course</h2>
+  <h2 class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">Get updates on this course</h2>
   <form type="submit" class="flex">
     <input type="text" placeholder="super@secret.com" 
       class="p-4 flex-grow outline-none border-2 border-r-0 border-gray-400 rounded-l focus:border-purple-400 placeholder:text-gray-300"
