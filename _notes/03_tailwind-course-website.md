@@ -1017,7 +1017,7 @@ theme: {
 ## My version
 - added html skeleton
 ``` HTML
-<div class="py-32 bg-gradient-to-br from-purple-100 to-gray-200">
+<div class="py-20 bg-gradient-to-br from-purple-100 to-gray-200">
   <div class="relative">
     <div class="container">
       <div>
