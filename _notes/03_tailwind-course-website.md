@@ -997,7 +997,21 @@ theme: {
 ```
 
 ## Tutorial corrections
+- modified padding of main div to `py-32`
+- modified heading to use `font-bold`
+- moved grid padding into the container div | `px-6`
+- didn't care about the rest of the differences
 
+``` HTML
+<div class="py-32 bg-gray-800 text-gray-400">
+  <div class="container mx-auto px-6 md:px-0 flex flex-col items-center">
+    <h2 class="text-center mb-12 text-3xl font-bold">Frequently Asked Questions</h2>
+    <!-- grid faq wrapper -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl">
+      <!-- grid items -->
+  </div>
+</div>
+```
 
 
 left vid at: 07:49:46
