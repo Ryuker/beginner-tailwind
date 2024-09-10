@@ -1020,36 +1020,36 @@ theme: {
 <div class="py-32 bg-gradient-to-br from-purple-100 to-gray-200">
   <div class="relative">
     <div class="container">
-      <!-- newsletter -->
       <div>
-        <h2>Get updates on this course</h2>
-        <form type="submit">
-          <input type="text" placeholder="super@secret.com"/>
-          <button>Subscribe</button>
-        </form>
-      </div>
-      <!-- site map  -->
-      <div>
-        <ul>
-          <li>
-            <h4>Legal Stuff</h4>
+        <!-- newsletter -->
+        <div>
+          <h2>Get updates on this course</h2>
+          <form type="submit">
+            <input type="text" placeholder="super@secret.com"/>
+            <button>Subscribe</button>
+          </form>
+        </div>
+        <!-- site map  -->
+        <div >
+          <div>
+            <h2>Company</h2>
             <a href="#">About</a>
             <a href="#">Blog</a>
             <a href="#">Careers</a>
-          </li>
-          <li>
-            <h4>Company</h4>
+          </div>
+          <div>
+            <h2>Product</h2>
             <a href="#">Pricing</a>
             <a href="#">Documentation</a>
             <a href="#">Guides</a>
-          </li>
-          <li>
-            <h4>Product</h4>
+          </div>
+          <div class="flex-grow">
+            <h2>Legal Stuff</h2>
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
             <a href="#">Rules</a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
       <!-- copyright -->
       <div>
