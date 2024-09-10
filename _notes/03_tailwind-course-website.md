@@ -1254,6 +1254,12 @@ theme: {
 ```
 
 ## Tutorial corrections
+- added `&copy;` to copyright to get the correct symbol
+- changed h2 to h4
+- added action and method to form (kind of irrelevant) | `action="" method="POST"`
+- tutorial changed the link headers to p but I find h5 is more appropriate so I changed it to that.
+- the absolute decoration is quite different but I don't mind it
+- not much of a difference in the responsive approach
 
 
 
