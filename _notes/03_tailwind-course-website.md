@@ -1126,7 +1126,7 @@ theme: {
   - spaced the header from the form button
 ``` HTML
 <!-- newsletter -->
-<div class="flex flex-col space-y-4">
+<div class="flex flex-col justify-center space-y-4">
   <h2 class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">Get updates on this course</h2>
   <form type="submit" class="flex">
     <input type="text" placeholder="super@secret.com" 
@@ -1136,6 +1136,35 @@ theme: {
   </form>
 </div>
 ```
+
+- site map:
+  - colored headers purple with font-bold
+  - colored wrapping elements for links
+  - added underline on hover to links
+``` HTML
+<div class="w-1/2 flex justify-end text-right">
+  <div class="flex-grow text-gray-500 space-y-3">
+    <h2 class="text-purple-600 font-bold uppercase tracking-wider">Company</h2>
+    <a href="#" class="block hover:underline">About</a>
+    <a href="#" class="block hover:underline">Blog</a>
+    <a href="#" class="block hover:underline">Careers</a>
+  </div>
+  <div class="flex-grow text-gray-500 space-y-3">
+    <h2 class="text-purple-600 font-bold uppercase tracking-wider">Product</h2>
+    <a href="#" class="block hover:underline">Pricing</a>
+    <a href="#" class="block hover:underline">Documentation</a>
+    <a href="#" class="block hover:underline">Guides</a>
+  </div>
+  <div class="flex-grow text-gray-500 space-y-3">
+    <h2 class="text-purple-600 font-bold uppercase tracking-wider">Legal Stuff</h2>
+    <a href="#" class="block hover:underline">Terms</a>
+    <a href="#" class="block hover:underline">Privacy</a>
+    <a href="#" class="block hover:underline">Rules</a>
+  </div>
+</div>
+</div>
+```
+
 
 
 left vid at: 07:49:46
