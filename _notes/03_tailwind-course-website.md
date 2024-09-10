@@ -1070,8 +1070,8 @@ theme: {
 ``` HTML
 <div class="py-32 bg-gradient-to-br from-purple-100 to-gray-200">
   <div class="relative">
-    <div class="container mx-auto px-6 lg:px-0 flex items-center flex-wrap">
-      <div class="w-full flex pb-20 border-b-2 border-gray-300">
+    <div class="container mx-auto max-w-7xl px-6 lg:px-0 flex items-center flex-wrap">
+      <div class="w-full flex gap-5 pb-20 border-b-2 border-gray-300">
         <!-- newsletter -->
         <div class="bg-green-100 w-1/2">
           <h2>Get updates on this course</h2>
@@ -1121,7 +1121,21 @@ theme: {
 
 - Newsletter signup element
   - modified h2 with rudimentary styling before implementing the gradient
-  
+  - styled form input with border, padding and focus border
+  - styled form button with bg, padding and text color
+  - spaced the header from the form button
+``` HTML
+<!-- newsletter -->
+<div class="flex flex-col space-y-4">
+  <h2 class="text-5xl font-bold text-purple-500">Get updates on this course</h2>
+  <form type="submit" class="flex">
+    <input type="text" placeholder="super@secret.com" 
+      class="p-4 flex-grow outline-none border-2 border-r-0 border-gray-400 rounded-l focus:border-purple-400 placeholder:text-gray-300"
+    />
+    <button class="p-3 bg-purple-400 hover:bg-purple-600 text-purple-100 transition duration-300">Subscribe</button>
+  </form>
+</div>
+```
 
 
 left vid at: 07:49:46
