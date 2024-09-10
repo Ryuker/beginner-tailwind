@@ -468,10 +468,16 @@
       </div>
     </div>
     <!-- footer/newsletter ====================-->
-    <div class="py-20 bg-gradient-to-br from-purple-100 to-gray-200">
+    <div class="relative py-20 bg-gradient-to-br from-purple-100 to-gray-200">
+      <!-- left circle decoration -->
+      <div class="absolute top-0 left-0 transform translate-x-0 translate-y-0">
+        <div class="absolute bg-gradient-to-br from-teal-50 to-teal-200 w-64 h-64 rounded-full opacity-50"></div>
+        <div class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-50 to-purple-200 w-64 h-64 rounded-full opacity-50"></div>
+        <div class="absolute ml-24 bg-gradient-to-br from-red-50 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
+      </div>
       <div class="relative">
-        <div class="container mx-auto max-w-7xl px-6 lg:px-0 flex items-center flex-wrap">
-          <div class="w-full flex gap-5 pb-20 border-b border-gray-300">
+        <div class="container mx-auto max-w-7xl px-8 flex items-center flex-wrap">
+          <div class="w-full flex justify-between pb-20 border-b border-gray-300">
             <!-- newsletter -->
             <div class="flex flex-col justify-center space-y-4">
               <h2 class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">Get updates on this course</h2>
@@ -483,7 +489,7 @@
               </form>
             </div>
             <!-- site map  -->
-            <div class="w-1/2 flex justify-end text-right">
+            <div class="w-1/2 flex justify-end text-right space-y-0">
               <div class="flex-grow text-gray-500 space-y-3">
                 <h2 class="text-purple-600 font-bold uppercase tracking-wider">Company</h2>
                 <a href="#" class="block hover:underline">About</a>
@@ -505,7 +511,7 @@
             </div>
           </div>
           <!-- copyright -->
-          <div class="w-full pt-8 flex justify-between text-gray-500">
+          <div class="w-full pt-6 flex justify-between text-gray-500">
             <div>
               <span>Copyright © 2024 <a href="https://joerivanees.com" class="hover:underline">Joeri van Ees</a></span>
             </div>

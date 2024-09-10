@@ -1071,7 +1071,7 @@ theme: {
 <div class="py-32 bg-gradient-to-br from-purple-100 to-gray-200">
   <div class="relative">
     <div class="container mx-auto max-w-7xl px-6 lg:px-0 flex items-center flex-wrap">
-      <div class="w-full flex gap-5 pb-20 border-b-2 border-gray-300">
+      <div class="w-full flex justify-between pb-20 border-b-2 border-gray-300">
         <!-- newsletter -->
         <div class="bg-green-100 w-1/2">
           <h2>Get updates on this course</h2>
@@ -1178,6 +1178,17 @@ theme: {
   </div>
 </div>
 ``` 
+
+- Added left circle decoration to the background
+  - modified wrapper div to use relative
+``` HTML
+<!-- left circle decoration -->
+<div class="absolute top-0 left-0 transform translate-x-0 translate-y-0">
+  <div class="absolute bg-gradient-to-br from-teal-50 to-teal-200 w-64 h-64 rounded-full opacity-50"></div>
+  <div class="absolute ml-10 mt-10 bg-gradient-to-br from-purple-50 to-purple-200 w-64 h-64 rounded-full opacity-50"></div>
+  <div class="absolute ml-24 bg-gradient-to-br from-red-50 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
+</div>
+```
 
 
 
