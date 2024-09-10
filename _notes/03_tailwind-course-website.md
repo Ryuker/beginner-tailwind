@@ -990,11 +990,13 @@ theme: {
   <div class="container mx-auto flex flex-col items-center">
     <h2 class="text-center mb-12 text-3xl">Frequently Asked Questions</h2>
     <!-- grid faq wrapper -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-0 max-w-6xl">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-0 max-w-6xl">
     </div>
   </div>
 </div> 
 ```
+
+## Tutorial corrections
 
 
 
