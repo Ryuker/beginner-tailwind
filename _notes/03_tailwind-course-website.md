@@ -1261,6 +1261,11 @@ theme: {
 - the absolute decoration is quite different but I don't mind it
 - not much of a difference in the responsive approach
 
+# 19. Small overal tweaks
+- changed `px-6 lg:px-0` to `px-10`, this supports screen sizes better
+- did some small responsive tweaks where I though it would look better
+  - about me section has a max-w-7xl to keep it a bit smaller
+
 
 
 left vid at: 07:49:46
