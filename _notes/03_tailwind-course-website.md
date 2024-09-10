@@ -1013,5 +1013,58 @@ theme: {
 </div>
 ```
 
+# 18. Footer
+## My version
+- added html skeleton
+``` HTML
+<div class="py-32 bg-gradient-to-br from-purple-100 to-gray-200">
+  <div class="relative">
+    <div class="container">
+      <!-- newsletter -->
+      <div>
+        <h2>Get updates on this course</h2>
+        <form type="submit">
+          <input type="text" placeholder="super@secret.com"/>
+          <button>Subscribe</button>
+        </form>
+      </div>
+      <!-- site map  -->
+      <div>
+        <ul>
+          <li>
+            <h4>Legal Stuff</h4>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <h4>Company</h4>
+            <a href="#">Pricing</a>
+            <a href="#">Documentation</a>
+            <a href="#">Guides</a>
+          </li>
+          <li>
+            <h4>Product</h4>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Rules</a>
+          </li>
+        </ul>
+      </div>
+      <!-- copyright -->
+      <div>
+        <div>
+          <span>Copyright © 2024 <a href="https://joerivanees.com">Joeri van Ees</a></span>
+        </div>
+        <div>
+          <a href="#">Twitter</a>
+          <a href="#">Discord</a>
+          <a href="#">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+```
+
 
 left vid at: 07:49:46
