@@ -24,7 +24,12 @@ export default {
         md: '12px',
         lg: '16px',
         xl: '24px'
+      },
+
+      fontFamily: {
+        fun: ['Varela Round', 'sans-serif'],
       }
+
     },
   },
   plugins: [],

@@ -75,5 +75,29 @@ extend: {
 }
 ```
 
+# 06. Adding a Font Family
+- adding `varela` font to font family
+  - from https://fonts.google.com/
+
+- added to head of html
+``` HTM index.html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+```
+
+- added the font to tailwind.config.js
+``` JS tailwind.config.js
+fontFamily: {
+  fun: ['Varela Round', 'sans-serif'],
+}
+```
+- usage: use `font-fun` on any html element in the class parameter
+``` HTML
+<h1 class="font-fun
+```
+
+
+
 
 left vid at: 08:31:53
