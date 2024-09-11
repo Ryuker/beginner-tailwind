@@ -97,6 +97,30 @@ fontFamily: {
 <h1 class="font-fun
 ```
 
+# 07. Extracting Tailwind Styles
+explanation of [functions and directives](https://tailwindcss.com/docs/functions-and-directives)
+## example of cutting the bg gradient from the html
+- changed class of header to `<div class="header-nav">`
+- Added `src/styles.css`
+``` CSS src/styles.css
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.header-nav {
+  @apply bg-gradient-to-br from-gray-100 to-gray-300;
+}
+```
+
+- imported styles.css into main.js
+``` JS main.js
+import './src/styles.css';
+```
+
+
+
 
 
 
