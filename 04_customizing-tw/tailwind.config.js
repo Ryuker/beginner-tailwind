@@ -18,6 +18,11 @@ export default {
       colors: {
         teal: colors.teal,
         fakered: "#ff0000",
+      },
+      spacing: {
+        sm: '8px',
+        md: '12px',
+        lg: '16px',
       }
     },
   },

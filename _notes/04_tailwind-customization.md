@@ -60,5 +60,19 @@ theme: {
 }
 ```
 
+# 05. Adding to spacing classes
+- these come in addition to the number for spacing.
+  - could be usefull
+``` JS tailwind.config.js
+extend: {
+  // add on to the tailwind classes
+  spacing: {
+    sm: '8px',
+    md: '12px',
+    lg: '16px',
+  }
+}
+```
+
 
 left vid at: 08:31:53
