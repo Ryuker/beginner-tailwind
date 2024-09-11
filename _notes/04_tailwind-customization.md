@@ -119,6 +119,10 @@ explanation of [functions and directives](https://tailwindcss.com/docs/functions
 import './src/styles.css';
 ```
 
+- ! It's advisable to use this sparingly, since it's the older way of doing css
+  - to know what styles an element has we need to go to the styles file
+  - but in most cases it's better to show this in the HTML directly.
+
 
 
 
