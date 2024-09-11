@@ -22,5 +22,27 @@ theme: {
 },
 ```
 
+# 03. Colors example
+- this overwrites the colors object, resulting in only the red color to be available.
+```JS tailwind.config.js
+theme: {
+// overwrite tailwind classes
+colors: {
+  red: "#ff0000",
+},
+```
+
+## adding on to the classes example
+- added fakered for usage in html, but all the other color classes stay intact
+``` JS tailwind.config.js
+extend: {
+  // add on to the tailwind classes
+  colors: {
+    teal: colors.teal,
+    fakered: "#ff0000",
+  }
+},
+```
+
 
 left vid at: 08:31:53

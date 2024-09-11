@@ -4,9 +4,12 @@ const colors = require('tailwindcss/colors');
 export default {
   content: ["./*.{html,js}"],
   theme: {
+    // overwrite tailwind classes
     extend: {
+      // add on to the tailwind classes
       colors: {
-        teal: colors.teal
+        teal: colors.teal,
+        fakered: "#ff0000",
       }
     },
   },
