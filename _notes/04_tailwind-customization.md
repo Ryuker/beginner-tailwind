@@ -7,7 +7,9 @@ run NVM use 20 to use the correct node version
 - verifies site is working
 
 # 02. Customizing Intro
-- in 
+- everything in the theme object overwrites tailwind classes
+- everything in the extend object (nested in the theme object)
+  - adds on to the tailwind classes
 ``` JS tailwind.config.js
 theme: {
   // overwrite tailwind classes
