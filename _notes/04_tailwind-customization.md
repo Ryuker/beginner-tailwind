@@ -44,5 +44,21 @@ extend: {
 },
 ```
 
+# 04. Replacing Opacity classes
+- it's easy to overwrite the opacity classes like so
+  - gives more flexibility
+``` JS tailwind.config.js
+theme: {
+  opacity: {
+    '0': '0',
+    '20': '0.2',
+    '40': '0.4',
+    '60': '0.6',
+    '80': '0.8',
+    '100': '1',
+  },
+}
+```
+
 
 left vid at: 08:31:53
