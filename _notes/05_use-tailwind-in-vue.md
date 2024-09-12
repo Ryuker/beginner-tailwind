@@ -41,6 +41,23 @@ module.exports = {
 }
 ```
 
+## addding tailwind imports
+- added `src/assets/styles/index.css`
+``` CSS index.css
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+```
+
+## import css into main.js
+- in main.js added import
+``` JS main.js
+import './assets/styles/index.css';
+```
+
+- then we run the server and notice Tailwind is not influencing the styles
 
 
 
