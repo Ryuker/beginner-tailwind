@@ -57,6 +57,10 @@ module.exports = {
 import './assets/styles/index.css';
 ```
 
+## cleaned out app.vue to a clean slate
+
+# 02. Exploring Tailwind in Vue
+
 - then we run the server and notice Tailwind is not influencing the styles
 
 
