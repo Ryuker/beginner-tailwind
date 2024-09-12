@@ -17,7 +17,7 @@ npm install -D @tailwindcss/typography
 ## To Use
 - added it as a plugin
 ``` JS tailwind.config.js
-plugins: [ require("tailwindcss/typography")],
+plugins: [ require('@tailwindcss/typography'),],
 ```
 
 

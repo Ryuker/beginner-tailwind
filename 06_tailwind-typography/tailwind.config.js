@@ -9,6 +9,6 @@ export default {
       // add on to the tailwind classes
     },
   },
-  plugins: [ require("tailwindcss/typography")],
+  plugins: [ require('@tailwindcss/typography'),],
 }
 
