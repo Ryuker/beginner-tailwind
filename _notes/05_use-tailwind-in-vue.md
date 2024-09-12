@@ -90,8 +90,4 @@ export default{
 
 - imported link into `App.vue`
 
-
-
-
-
-left vid at: 08:51:34
+left vid at: 09:04:33
