@@ -61,6 +61,18 @@ import './assets/styles/index.css';
 
 # 02. Exploring Tailwind in Vue
 
+## No components
+- added links into `app.vue`
+```js  app.vue
+<div class="min-h-screen p-20 bg-blue-300 space-x-8">
+  <a href="#" class="p-3 bg-yellow-400 text-yellow-800 rounded shadow">Link</a>
+  <a href="#" class="p-3 bg-yellow-400 text-yellow-800 rounded shadow">Link</a>
+  <a href="#" class="p-3 bg-yellow-400 text-yellow-800 rounded shadow">Link</a>
+  <a href="#" class="p-3 bg-yellow-400 text-yellow-800 rounded shadow">Link</a>
+  <a href="#" class="p-3 bg-yellow-400 text-yellow-800 rounded shadow">Link</a>
+</div>
+```
+
 - then we run the server and notice Tailwind is not influencing the styles
 
 
