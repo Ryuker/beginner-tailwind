@@ -20,6 +20,19 @@ npm install -D @tailwindcss/typography
 plugins: [ require('@tailwindcss/typography'),],
 ```
 
+# 02. Styling a Typography section
+- this is very usefull for blogposts and other content coming in from a cms
+- we have a div with
+  - we specify prose and we can do this responsive as well
+    - this way we get dynamic larger text and small text based on screen size
+``` HTML
+<div class="mt-8 prose lg:prose-xl prose-slate mx-auto">
+  <!-- content -->
+</div>
+```
+- the content inside this is just p element etc, there's not styling on them
+  - but the plugin styles it for us.
+
 
 
 
