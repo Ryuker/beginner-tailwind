@@ -56,6 +56,7 @@ module.exports = {
 ``` JS main.js
 import './assets/styles/index.css';
 ```
+- then we run the server and notice Tailwind is influencing the styles
 
 ## cleaned out app.vue to a clean slate
 
@@ -73,7 +74,23 @@ import './assets/styles/index.css';
 </div>
 ```
 
-- then we run the server and notice Tailwind is not influencing the styles
+## MyLink Component
+- added `components/MyLink.vue
+```vue MyLink.vue
+<template>
+  <a href="url" class="p-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-800 rounded shadow hover:shadow-2xl transition duration-300">{{text}}</a>
+</template>
+
+<script>
+export default{
+  props: ["url", "text"]
+}
+</script>
+``` 
+
+- imported link into `App.vue`
+
+
 
 
 
