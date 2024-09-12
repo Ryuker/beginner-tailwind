@@ -19,7 +19,7 @@ npx @vue/cli ui
 npm i tailwindcss autoprefixer
 ```
 
-## adding tailwind.config.jso
+## adding tailwind.config.js
 ``` shell
 npx tailwindcss init
 ```
@@ -27,5 +27,21 @@ npx tailwindcss init
 ``` js tailwind.config.js
 content: ['src/**/*.vue'],
 ```
+
+## adding postscss.config.js
+- added `postcss.config.js` to the root
+``` JS postcss.config.js
+module.exports = {
+  plugins: [
+    //...
+    require('tailwindcss'), 
+    require('autoprefixer'), 
+    //...
+  ]
+}
+```
+
+
+
 
 left vid at: 08:51:34
